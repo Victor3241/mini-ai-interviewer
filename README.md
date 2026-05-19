@@ -2,7 +2,7 @@
 
 ## Problem
 
-Traditional research interviews are time-consuming, require a trained interviewer, and often produce unstructured data that's hard to analyze. Scaling qualitative research across many participants is expensive and slow.
+Create a small application that mimics a simplified version of the Anthropic Interviewer tool (more details here: https://www.anthropic.com/news/anthropic-interviewer). The goal is to design an interactive system that conducts short AI-powered interviews with users on a selected topic.
 
 This README covers the solution, setup instructions, and a user's manual for navigating the app.
 
