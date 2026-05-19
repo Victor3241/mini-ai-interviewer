@@ -1,0 +1,53 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    healthcheck:
+      test: ["CMD-SHELL", "ollama list || true"]
+      interval: 5s
+      timeout: 10s
+      retries: 30
+
+  mysql:
+    image: mysql:8
+    container_name: interviewer-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: interviewer
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-ppassword"]
+      interval: 5s
+      timeout: 10s
+      retries: 30
+
+  web:
+    build: .
+    container_name: interviewer-web
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - MODEL_NAME=qwen3:1.7b
+      - NUM_QUESTIONS=5
+      - MYSQL_HOST=mysql
+      - MYSQL_PORT=3306
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=password
+      - MYSQL_DATABASE=interviewer
+    depends_on:
+      ollama:
+        condition: service_healthy
+      mysql:
+        condition: service_healthy
+
+volumes:
+  ollama_data:
+  mysql_data:

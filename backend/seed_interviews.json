@@ -1,0 +1,80 @@
+[
+  {
+    "id": "c597949b",
+    "topic": "AI in the Workplace",
+    "status": "completed",
+    "transcript": [
+      {"role": "interviewer", "content": "How do you see AI currently impacting the roles and responsibilities in your workplace?"},
+      {"role": "user", "content": "Well I see AI having a pretty positive impact on my role and my responsabilities"},
+      {"role": "interviewer", "content": "How do you perceive the shift in responsibilities due to AI, and what specific tasks or skills are becoming more or less critical in your role?"},
+      {"role": "user", "content": "Verifying has become a lot more critical since the responsability of tedious work now goes to AI"},
+      {"role": "interviewer", "content": "How are you adapting your skills to complement AI in your role, and what new competencies are you cultivating?"},
+      {"role": "user", "content": "I am trying to pay more attention and I'm trying to be more creative"},
+      {"role": "interviewer", "content": "How are you integrating your creativity with AI tools in your work, and what specific areas are you focusing on to stay competitive?"},
+      {"role": "user", "content": "Well I am a programmer so I try to be more creative with my solutions since AI does a lot of the repetitive work"},
+      {"role": "interviewer", "content": "How are you using AI tools to enhance your creative problem-solving in your programming tasks, and what specific projects or problems are you currently tackling that require both technical skill and creative insight?"},
+      {"role": "user", "content": "Well I build websites and I have a lot of templates that AI integrates and personalizes for each client, but after one is build the human part needs to verify the whole website and make changes if needed and style it"}
+    ],
+    "summary": {
+      "themes": ["AI impact on roles", "skill adaptation", "creative collaboration with AI", "workplace transformation", "human-AI complementarity"],
+      "summary": "The participant highlights that AI is enhancing their role by automating repetitive tasks, particularly in verification, while emphasizing the importance of human creativity in problem-solving. They adapt by focusing on creative problem-solving and leveraging AI tools to streamline workflows, such as customizing website templates. The interview underscores a shift toward complementary skills, where AI handles routine work, and humans retain critical thinking and creative oversight. The participant acknowledges the need for continuous learning to stay competitive in a rapidly evolving technological landscape.",
+      "keywords": ["AI impact", "task verification", "creative adaptation", "programmer", "website development"],
+      "sentiment": "Very positive (1.0)",
+      "sentiment_score": 1.0
+    },
+    "created_at": "2026-05-18 17:28:52",
+    "completed_at": "2026-05-18 17:34:44"
+  },
+  {
+    "id": "9595052b",
+    "topic": "Remote Work Culture",
+    "status": "completed",
+    "transcript": [
+      {"role": "interviewer", "content": "How has your experience with remote work changed your perception of work-life balance?"},
+      {"role": "user", "content": "I hate working remotely. It is isolating, lonely, and I feel completely disconnected from my colleagues."},
+      {"role": "interviewer", "content": "What specific strategies do you use to maintain connections with your colleagues when working remotely?"},
+      {"role": "user", "content": "My mental health has suffered badly. I struggle with motivation and feel burned out all the time."},
+      {"role": "interviewer", "content": "What aspects of remote work do you find most challenging in terms of maintaining your mental health?"},
+      {"role": "user", "content": "Communication is terrible. Messages get lost, nobody reads emails, and meetings are a waste of time."},
+      {"role": "interviewer", "content": "How does the lack of clear communication in remote work affect your ability to collaborate effectively with your team?"},
+      {"role": "user", "content": "Management does not care at all. They just want us to be available 24/7 without any real support."},
+      {"role": "interviewer", "content": "How does the expectation of constant availability from management impact your sense of purpose or fulfillment in your work?"},
+      {"role": "user", "content": "Honestly I would quit if I could. Remote work has ruined my work-life balance and I dread every Monday."}
+    ],
+    "summary": {
+      "themes": ["isolation", "communication", "mental health", "management expectations", "work-life balance"],
+      "summary": "The participant expressed profound dissatisfaction with remote work, citing isolation, poor communication, and burnout as major challenges. They emphasized how lack of clarity in expectations and constant availability from management undermines both mental health and work-life balance. The experience has led to a complete loss of purpose, with the participant describing remote work as a 'ruined' experience that they dread every Monday. The participant's struggles highlight systemic issues in remote work, such as fragmented communication and insufficient support from management, which exacerbate feelings of loneliness and frustration.",
+      "keywords": ["isolation", "communication", "mental health", "management expectations", "work-life balance"],
+      "sentiment": "Very negative (-0.8)",
+      "sentiment_score": -0.8
+    },
+    "created_at": "2026-05-18 17:46:57",
+    "completed_at": "2026-05-18 17:49:01"
+  },
+  {
+    "id": "3fefdfd9",
+    "topic": "Remote Work",
+    "status": "completed",
+    "transcript": [
+      {"role": "interviewer", "content": "For you, what's the first thing that comes to mind when thinking about remote work?"},
+      {"role": "user", "content": "I have been working remotely for three years and love the flexibility."},
+      {"role": "interviewer", "content": "Which specific aspect of the flexibility has been most rewarding for you?"},
+      {"role": "user", "content": "The hardest part is staying connected with my team socially."},
+      {"role": "interviewer", "content": "What's one thing you wish your team would do differently to help with staying connected?"},
+      {"role": "user", "content": "We use Slack and weekly video calls but it is not the same as in person."},
+      {"role": "interviewer", "content": "What's one small habit or practice your team could adopt to make remote interactions feel more like in-person ones?"},
+      {"role": "user", "content": "Better async communication tools would help a lot."},
+      {"role": "interviewer", "content": "What's one small change you'd make to make remote work feel more human without adding more meetings?"},
+      {"role": "user", "content": "I think hybrid is the future but fully remote will always have a place."}
+    ],
+    "summary": {
+      "themes": ["social connection challenges", "asynchronous communication tools", "hybrid work models"],
+      "summary": "The participant, who has been working remotely for three years, expresses a strong positive sentiment toward the flexibility that remote work provides. However, they identify maintaining social connections with their team as the most significant challenge in their remote work experience.\n\nThey note that despite using Slack and weekly video calls, the current communication methods do not replicate the in-person social experience. To address this, they advocate for better asynchronous communication tools to enhance remote interactions without increasing meeting frequency. The participant concludes by stating that hybrid work models are the future, though fully remote arrangements will continue to have a place.",
+      "keywords": ["flexibility", "social connection", "Slack", "asynchronous communication tools", "hybrid work", "fully remote"],
+      "sentiment": "The participant maintains a pragmatic and cautiously optimistic tone regarding remote work's benefits while addressing its social challenges.",
+      "sentiment_score": 0.7
+    },
+    "created_at": "2026-05-18 14:05:06",
+    "completed_at": "2026-05-18 14:20:22"
+  }
+]
